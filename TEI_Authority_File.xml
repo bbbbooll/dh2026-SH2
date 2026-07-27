@@ -46,6 +46,15 @@
                Literature' at Newcastle University. He is also currently Chair of the TEI
                Consortium's Board of Directors.</note>
          </person>
+		  
+  <person xml:id="person-JC002">
+            <!-- You can provide as much or as little information about an entity as you want. Here is some information about James. -->
+            <persName>Seonhan Jeong</persName>
+            <affiliation ref="#org-NU01">Chonnam University</affiliation>
+            <faith>Christianity</faith>
+            <socecStatus>Student</socecStatus>
+            <nationality>Korean</nationality>
+         </person>
 
       </listPerson>
 
