@@ -425,6 +425,85 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/bbbbooll/dh2026-SH2/main/inferno/inferno-ko.xml?person_annotation_20260727113930462",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-07-27T02:39:30.462Z",
+	"dcterms:modified": "2026-07-27T02:39:30.462Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/bbbbooll",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Seonhan"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/bbbbooll/dh2026-SH2/main/inferno/inferno-ko.xml?person_annotation_20260727113930462#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/bbbbooll/dh2026-SH2/main/inferno/inferno-ko.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/bbbbooll/dh2026-SH2/main/inferno/inferno-ko.xml?person_annotation_20260727113930462#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://raw.githubusercontent.com/bbbbooll/dh2026-SH2/refs/heads/main/TEI_Authority_File.xml#person-JC002",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <p xml:lang="en">This encoded file was created by members of the Linked Editing Academic
             Framework (LEAF) team and made available for a LEAF / LEAF-Writer workshop. This file is
@@ -444,7 +523,7 @@
             <pb facs="https://upload.wikimedia.org/wikipedia/commons/3/38/Inferno_Canto_4_four_bards.jpg"/>
             <head>신곡, 지옥, Canto 4 번역</head>
             <lg xml:id="lg01">
-               <l n="1">머리 속 깊은 잠을 깨우는</l>
+               <l n="1"><persName key="Seonhan Jeong" ref="https://raw.githubusercontent.com/bbbbooll/dh2026-SH2/refs/heads/main/TEI_Authority_File.xml#person-JC002">머리</persName> 속 깊은 잠을 깨우는</l>
                <l n="2">천둥의 굉음에 움칠해 마치</l>
                <l n="3">강제로 일으켜진 사람인 듯,</l>
             </lg>
