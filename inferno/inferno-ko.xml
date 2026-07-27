@@ -167,7 +167,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/bbbbooll/dh2026-SH2/main/inferno/inferno-ko.xml?person_annotation_20260727102342715#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/lg[19]/l[2]/persName"
+			"rdf:value": "TEI/text/body/div/lg[19]/l[2]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -183,6 +183,85 @@
 		"schema:softwareVersion": "4.3.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/bbbbooll/dh2026-SH2/main/inferno/inferno-ko.xml?person_annotation_20260727102433046",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-07-27T01:24:33.046Z",
+	"dcterms:modified": "2026-07-27T01:24:33.046Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/bbbbooll",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Seonhan"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/bbbbooll/dh2026-SH2/main/inferno/inferno-ko.xml?person_annotation_20260727102433046#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/bbbbooll/dh2026-SH2/main/inferno/inferno-ko.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/bbbbooll/dh2026-SH2/main/inferno/inferno-ko.xml?person_annotation_20260727102433046#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg[19]/l[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q81422",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.0"
+	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -294,7 +373,7 @@
             </lg>
             <lg xml:id="lg19">
                <l n="55">첫번째 조상의 그림자를 가려,</l>
-               <l n="56">그의 아들인 아벨과, 노아와,<persName key="Cain and Abel" ref="http://dbpedia.org/resource/Cain_and_Abel" type="real" cert="high"/></l>
+               <l n="56">그의 아들인 아벨과, <persName key="Noah" ref="http://www.wikidata.org/entity/Q81422">노아</persName>와,<persName key="Cain and Abel" ref="http://dbpedia.org/resource/Cain_and_Abel" type="real" cert="high"/></l>
                <l n="57">선포하고 복종한 모세를 포함하여,</l>
             </lg>
             <lg xml:id="lg20">
