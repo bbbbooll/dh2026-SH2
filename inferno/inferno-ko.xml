@@ -515,8 +515,8 @@
             <lg xml:id="lg15">
                <l n="43">커다란 고통이 마음을 좼다,</l>
                <l n="44">그제야 무척 귀한 분들께서</l>
-               <l n="45"><placeName key="limbo" ref="http://www.wikidata.org/entity/Q270710" cert="medium">림보<precision match="@ref" precision="high"/></placeName>에 유예됨을 알게 되자.</l><l n="45">“답하소서, 스승님, 답하소서,”</l></lg><lg xml:id="lg16">
-               <l n="47"/><l n="47"/><l n="47">말을 시작한 나는 확신으로</l>
+               <l n="45"><placeName key="limbo" ref="http://www.wikidata.org/entity/Q270710" cert="medium">림보<precision match="@ref" precision="high"/></placeName>에 유예됨을 알게 되자.“답하소서, 스승님, 답하소서,”</l></lg><lg xml:id="lg16">
+               <l n="47">말을 시작한 나는 확신으로</l>
                <l n="48">모든 오류를 이기길 바랐으며,</l>
             </lg>
             <lg xml:id="lg17">
